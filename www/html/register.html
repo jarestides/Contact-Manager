@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Sign Up</title>
+      
+      
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      
+ <link href="../css/styles.css" rel="stylesheet">
+      
+  </head>
+    
+    <body> 
+        <script>
+		function register() {
+			addUser();
+		}
+	    </script>
+        
+        <form class = "form-container row"> 
+            <h1 id = "signUpTitle">Sign Up</h1>
+            <div class = "align"> 
+            <div class = "box-logo col"> 
+                <label><i class="fa-solid fa-user"></i> First Name</label><br>
+                <input name = "firstname" type = "text" placeholder = "enter first name here" id = "firstName" required autofocus>
+            </div>
+            
+            <div class = "box-logo col"> 
+                <label><i class="fa-solid fa-user"></i> Last Name</label><br>
+                <input name = "username" type = "text" placeholder = "enter last name here" id = "lastName" required autofocus>
+            </div>
+            
+            <div class = "box-logo col"> 
+                <label><i class="fa-solid fa-user"></i> Username</label><br>
+                <input name = "username" type = "text" placeholder = "enter username here" id = "signUpLogin" required autofocus>
+            </div>
+            
+            <div class = "box-logo col"> 
+                <label><i class="fa-solid fa-envelope"></i> Email</label><br>
+                <input name = "email" type = "email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder = "enter email here" id = "email" required>
+            </div>    
+                
+            <div class = "box-logo col"> 
+                <label><i class="fa-solid fa-lock"></i> Password</label><br>
+                <input name = "password" type = "password" placeholder = "enter password here" id = "loginPassword1" required autofocus>
+            </div>
+			
+			<div class = "box-logo col"> 
+                <label><i class="fa-solid fa-lock"></i> Confirm Password</label><br>
+                <input name = "password" type = "password" placeholder = "re-enter password here" id = "loginPassword2" required autofocus>
+            </div>
+                
+            <span id = "signUpError"></span>
+            <span id = "signUpResult"></span>
+                
+<!--
+            <div class = "box-logo col pass-requirement">
+                <p>Password must contain the following: </p>
+                <ul>
+                    <li>Minimum of 8 characters</li>
+                    <li>Uppercase and lowercase letters</li>
+                    <li>At least 1 special character</li>
+                    <li>At least 1 number</li>
+                </ul>
+                
+            </div>
+-->
+                
+            <div class = "login-btn"> 
+                <button onclick="register()" type="button">Register</button>
+            </div>
+            <div> 
+                Already have an account? <a href = "../index.html">Log In</a>    
+            </div>
+                
+            </div>
+        </form>
+        
+        <script src="https://kit.fontawesome.com/be2d30600d.js" crossorigin="anonymous"></script>
+
+        <script src="js/register.js"></script>
+         
+        
+    </body>
+    
+    
+</html>

@@ -1,0 +1,109 @@
+body {
+  padding-top: 7em;
+/*    background-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/Black-Background-Free-Download.jpg'); */
+    background-image: linear-gradient(black, white);
+/*  background-size: cover;*/
+background-attachment: fixed;
+  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+    "Geneva", "Verdana", "sans-serif";
+}
+.main-header {
+  color: black;
+}
+
+#userName {
+  text-transform: capitalize;
+}
+
+.top-nav {
+  background-color: #cfcfcf;
+  padding-bottom: 15px;
+}
+
+.contacts {
+  padding: 5px 10px 0;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #cfcfcf;
+    color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background: #1c1c1b;
+  box-shadow: 4px 4px #888888;
+  outline: none;
+}
+
+.btn-primary:active {
+  transform: translateY(1px);
+}
+
+.searchBar {
+  color: #1e2833;
+  display: block;
+  width: 100%;
+  background-clip: padding-box;
+}
+
+.searchBar:focus {
+  outline: none;
+}
+
+#search-table {
+  padding-top: 10px;
+}
+
+#search-results-error {
+  display: none;
+}
+
+.contact-action {
+  color: black;
+}
+
+.add-contact {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #434a52;
+  color: #000000;
+  width: 100%;
+  padding: 0.475rem 0.75rem;
+}
+
+.add-contact:focus {
+  border: none;
+  color: #000000;
+  padding: 0.475rem 0.75rem;
+}
+
+.menu-icon {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.update-contact {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #434a52;
+  color: #000000;
+  width: 100%;
+  padding: 0.475rem 0.75rem;
+}
+
+.update-contact:focus {
+  border: none;
+  color: #000000;
+  padding: 0.475rem 0.75rem;
+}
